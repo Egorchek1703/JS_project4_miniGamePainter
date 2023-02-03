@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* Чтобы при количестве квадратов выходящим за рамки контейнера, они перестраивались в другую строку, а не выходили за рамки страницы*/
+}
+
+.square {
+  background: white;
+  width: 16px;
+  height: 16px;
+  border: 0.5px solid gray;
+  margin: 2px;
+  box-shadow: 0 0 2px black;
+  transition: all 2s ease 0;
+}
+

@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 700px;
+}
+.square{
+  width: 18px;
+  height: 18px;
+  background: white;
+  margin: 1px;
+  box-shadow: 0 0 2px black;
+  transition: all 2s ease-out 0;
+}
